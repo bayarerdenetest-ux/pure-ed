@@ -4,6 +4,7 @@ import { IconSend } from "@tabler/icons-react";
 import { Button, Card } from "erxes-ui";
 import { gql } from "~/gql";
 import { PureLogoIcon } from "../../components/PureLogo";
+import { PureChatIcon, PureLoadingIcon } from "../../components/PureIcons";
 
 export const AI_STATUS_QUERY = gql(`
   query dandarAiStatus {
@@ -139,9 +140,8 @@ export const PureChat = () => {
                     </div>
                     <div className="pure-chat-bubble">
                       <div className="dandar:flex dandar:gap-2 dandar:items-center">
-                        <span className="pure-loading-dot dandar:h-2.5 dandar:w-2.5 dandar:rounded-full dandar:bg-pure-primary" />
-                        <span className="pure-loading-dot dandar:h-2.5 dandar:w-2.5 dandar:rounded-full dandar:bg-pure-primary" />
-                        <span className="pure-loading-dot dandar:h-2.5 dandar:w-2.5 dandar:rounded-full dandar:bg-pure-primary" />
+                        <PureLoadingIcon size={20} />
+                        <span className="dandar:text-sm dandar:text-muted-foreground">Эргүүлэж байна...</span>
                       </div>
                     </div>
                   </div>
