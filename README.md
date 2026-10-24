@@ -1,5 +1,7 @@
 # 🚀 DanDar — AI-Powered Education Plugin
 
+> DanDar-Engineering багийн [эх repo](https://github.com/DanDar-Engineering/dandar)-оос хуулсан. Багийн гишүүдийг [доор](#-баг-ба-эх-сурвалж) харна уу.
+
 **DanDar** бол [erxes](https://erxes.io) платформд зориулсан, хиймэл оюун ухаанд суурилсан боловсролын нэмэлт модуль (EdTech Plugin) юм. Google-ийн Gemma AI загварыг ашиглан сурагчдын суралцах үйл явцыг дэмжих, багшийн ажлыг хөнгөвчлөх, эцэг эх болон сургуулийн харилцааг сайжруулах зорилготой.
 
 DanDar нь сурагчдад гэрийн даалгавраа шалгуулах, хичээлээс тест үүсгэх, суралцах төлөвлөгөө гаргах зэрэг боломжийг нэг дороос хүргэнэ.
@@ -385,6 +387,21 @@ git switch -c feature/quiz-generator
 
 ---
 
+## 👥 Баг ба эх сурвалж
+
+Энэ repository нь **DanDar-Engineering** багийн хакатоны төслийн хуулбар юм.
+Эх repo: [DanDar-Engineering/dandar](https://github.com/DanDar-Engineering/dandar).
+Commit-ын бүрэн түүх хадгалагдсан тул хэн юу хийсэн нь git log-оос харагдана.
+
+| Гишүүн | GitHub | Хувь нэмэр |
+| --- | --- | --- |
+| Ariubilig | [@Ariubilig](https://github.com/Ariubilig) | erxes plugin-ий суурь ба Gemma 4 холболт, суулгах скриптүүд, гэрийн PC/утаснаас холбогдох, демо өгөгдөл ба smoke test |
+| Temuulen Munkhochir | [@Temukk-dev](https://github.com/Temukk-dev) | Давтлагын карт (spaced repetition), шалгалтын горим, тест, ахиц, скан зурагнаас карт үүсгэх |
+| Batmanlaibn | [@Batmanlaibn](https://github.com/Batmanlaibn) | Pure-Ed дизайн систем, icon ба анимаци, сурагчийн төлөвлөгч ба сануулга |
+| Bayar-Erdene Byambajav | [@bayarerdenetest-ux](https://github.com/bayarerdenetest-ux) | Gemma 4 OCR скан (тэмдэглэл/шалгалтын материал, багшид илгээх), камераас зураг авах, монгол дуут сануулга (OmniVoice, Chimege), дуугаар төлөвлөх |
+
+---
+
 ## 📄 Лиценз
 
 Лицензийн мэдээлэл repository-д тусгагдаагүй бол ашиглах болон түгээх нөхцөлийг тодорхойлсны дараа энэ хэсгийг шинэчилнэ.
@@ -395,6 +412,6 @@ git switch -c feature/quiz-generator
 
 **DanDar — Суралцахыг илүү ухаалаг, хүртээмжтэй, үр дүнтэй болгоё.**
 
-GitHub: [DanDar-Engineering/dandar](https://github.com/DanDar-Engineering/dandar)
+Энэ repo: [bayarerdenetest-ux/pure-ed](https://github.com/bayarerdenetest-ux/pure-ed)
 
-Branch: `asd`
+Эх repo: [DanDar-Engineering/dandar](https://github.com/DanDar-Engineering/dandar)
